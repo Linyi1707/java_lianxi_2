@@ -1,4 +1,4 @@
-package day_8;
+package Java_test.test_3.src.day_8;
 
 import java.util.Scanner;
 
@@ -10,6 +10,7 @@ public class test_3 {
             int cge = run.nextInt();
             if (cge < 10) {
                 System.out.println("进入决赛，请选择：");
+
             }
         }
     }

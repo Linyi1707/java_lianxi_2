@@ -1,4 +1,4 @@
-package day_8;
+package Java_test.test_3.src.day_8;
 
 import java.util.Scanner;
 
