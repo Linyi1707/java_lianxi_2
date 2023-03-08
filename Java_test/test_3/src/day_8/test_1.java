@@ -9,14 +9,9 @@ public class test_1 {
         if (run.hasNext()) {
             String cip = run.next();
             switch (cip) {
-                case "中":
-                    System.out.println("买车");
-                    break;
-                case "没中":
-                    System.out.println("接着买");
-                    break;
-                default:
-                    System.out.println("输入错误！");
+                case "中" -> System.out.println("买车");
+                case "没中" -> System.out.println("接着买");
+                default -> System.out.println("输入错误！");
             }
         } else {
             System.out.println("输入错误！");
