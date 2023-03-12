@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test1",
+            "request": "launch",
+            "mainClass": "Java_test.test_3.src.day_8.test1",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
