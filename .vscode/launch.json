@@ -1,0 +1,49 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Hello_World",
+            "request": "launch",
+            "mainClass": "Hello_World",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_1",
+            "request": "launch",
+            "mainClass": "Java_test.test_3.src.day_8.test_1",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_2",
+            "request": "launch",
+            "mainClass": "Java_test.test_3.src.day_8.test_2",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_3",
+            "request": "launch",
+            "mainClass": "Java_test.test_3.src.day_8.test_3",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_4",
+            "request": "launch",
+            "mainClass": "Java_test.test_3.src.day_8.test_4",
+            "projectName": "java_lianxi_2_fe083259"
+        }
+    ]
+}
