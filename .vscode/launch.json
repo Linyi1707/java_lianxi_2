@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test_1",
+            "request": "launch",
+            "mainClass": "day_13.test_1",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
             "name": "test_3",
             "request": "launch",
             "mainClass": "day_13.test_3",
