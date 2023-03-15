@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "test_3_1",
+            "request": "launch",
+            "mainClass": "day_15.test_3_1",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_3",
+            "request": "launch",
+            "mainClass": "day_15.test_3",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_1",
+            "request": "launch",
+            "mainClass": "day_15.test_1",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_2",
+            "request": "launch",
+            "mainClass": "day_15.test_2",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_4",
+            "request": "launch",
+            "mainClass": "day_15.test_4",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_4_1",
+            "request": "launch",
+            "mainClass": "day_15.test_4_1",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
             "name": "test_1",
             "request": "launch",
             "mainClass": "day_13.test_1",
