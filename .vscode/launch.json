@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Person",
+            "request": "launch",
+            "mainClass": "day_19.Person",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
+            "name": "test_1",
+            "request": "launch",
+            "mainClass": "day_16.test_1",
+            "projectName": "java_lianxi_2_fe083259"
+        },
+        {
+            "type": "java",
             "name": "test_3_1",
             "request": "launch",
             "mainClass": "day_15.test_3_1",
