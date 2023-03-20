@@ -6,9 +6,9 @@ public class test_1 {
     public static void main(String[] args) {
         int[] list = {8, 4, 2, 1, 23, 344, 12};
         int sum = 0;
-        try (Scanner run = new Scanner(System.in)) {
+        Scanner in = new Scanner(System.in);
             System.out.print("请输入所猜号码：");
-                int data = run.nextInt();
+                int data = in.nextInt();
             for (int i = 0; i < list.length; i++) {
                 System.out.println(list[i]);
                 if (list[i] == data) {
@@ -16,7 +16,6 @@ public class test_1 {
                 }
                 sum += list[i];
             }
-        }
         System.out.println("所有元素的和为：" + sum);
     }
 }
