@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class test {
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
         String k1 = "*******************开始游戏****************";
         //String k2 = "*******************结束游戏****************";
         System.out.println(k1);
