@@ -1,3 +1,5 @@
+package Java_test.April.src;
+
 import java.util.*;
 
 public class test_2 {
@@ -7,22 +9,26 @@ public class test_2 {
         map.put("2", "banana");
         map.put("手机", "phone");
         map.put("phone", "手机");
-//        System.out.println(map);
-//        System.out.println(map.size());
-//        System.out.println(map.get("手机"));
-//        System.out.println(map.containsKey("phone"));
-//        System.out.println(map.containsValue("banana"));
-//        System.out.println(map.keySet());
-//        System.out.println(map.values());
+        System.out.println(map);
+        System.out.println(map.size());
+        System.out.println(map.get("手机"));
+        System.out.println(map.containsKey("phone"));
+        System.out.println(map.containsValue("banana"));
+        System.out.println(map.keySet());
+        System.out.println(map.containsValue("apple"));
 
         var keys = map.keySet();
-        //        System.out.println(it);
-//        System.out.println(it.hasNext());
+        var it = keys.iterator();
+        System.out.println(keys);
+        System.out.println(it);
+        System.out.println(it.hasNext());
+        System.out.println(keys.size());
 
-        for (Object o : keys) {
-            String key = (String) o;
-//            System.out.println(key);
-            System.out.println(map.get(key));
+
+        for (String o : keys) {
+            System.out.println(o);
+            System.out.println(map.get(o));
+
         }
     }
 }

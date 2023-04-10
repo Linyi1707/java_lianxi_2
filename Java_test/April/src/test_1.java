@@ -1,4 +1,4 @@
-package Java_test.April.day_3;
+package Java_test.April.src;
 
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.ArrayList;
