@@ -1,25 +1,22 @@
-package Java_test.April.src;
+package Java_test.April.day_3;
 
+import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Map;
 
 public class test_1 {
     public static void main(String[] args) {
-        ArrayList<Object> list = new ArrayList<>();
+        ArrayList list = new ArrayList<>();
         list.add("apple");
         list.add("banana");
         System.out.println(list.size());
         for (Object o : list) {
             System.out.println(o);
         }
-        LinkedList<String> arr = new LinkedList<>();
+        LinkedList arr = new LinkedList();
         arr.addFirst("person");
         arr.addLast("age");
         arr.removeFirst();
         System.out.print(arr.getFirst());
     }
-
-
 }
